@@ -122,6 +122,6 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     extras_require={
-        'ssh':  ['paramiko'],
+        'ssh':  ['paramiko', 'sshtunnel'],
     },
 )
